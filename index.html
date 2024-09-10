@@ -1,16 +1,145 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Site en Construction</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yann Terrom</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-  <div class="container">
-    <h1>Site en Construction</h1>
-    <p>Notre site est actuellement en construction et sera bientôt disponible.</p>
-    <p>Merci de votre patience !</p>
-  </div>
+
+    <header class="header">
+        <a href="#home" class="logo">Yann <span>Terrom</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Yann</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>I am passionate about mathematics and computer science, which is why my studies have led me to artificial intelligence, a field that perfectly combines these two areas. I hold dual degrees: an engineering degree specialized in AI and a research master's degree in AI and Computer Vision from Université Paris-Saclay. My studies have provided me with a solid background in AI, and my various projects and professional experiences have given me the expertise I have today.</p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/yann-terrom/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/yannTrm"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="image.jpg" alt="">
+        </div>
+    </section>
+
+
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2019</div>
+                    <div class="timeline-content">
+                        <h3>High School</h3>
+                        <p>I attended Lycée Sacré Coeur, where I pursued a scientific baccalaureate with a specialization in mathematics. I graduated in 2019 with honors.</p>
+                    </div>
+            </div>
+    
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019 - 2024</div>
+                <div class="timeline-content">
+                    <h3>Higher Education</h3>
+                    <p>I studied at ESME Sudria, where I pursued a general engineering degree with a major in Artificial Intelligence. I completed my studies in 2024.</p>
+                </div>
+            </div>
+    
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                    <h3>Exchange Program</h3>
+                    <p>I participated in an exchange program at the University of California, Santa Barbara (UCSB), where I focused on Computer Science and Artificial Intelligence.</p>
+                </div>
+            </div>
+    
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Master's Degree</h3>
+                    <p>I completed a research master's degree in Artificial Intelligence and Computer Vision at Université Paris-Saclay in 2024.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <div class="input-box">
+                    <input type="text" placeholder="Phone Number" >
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/yann-terrom/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/yannTrm"><i class='bx bxl-github'></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#home">About Me</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            © Yann Terrom | All Right Reserved
+        </p>
+
+
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
